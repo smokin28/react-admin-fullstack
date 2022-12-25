@@ -25,8 +25,10 @@ const OverallStatSchema = new mongoose.Schema(
       of: Number
     }
   },
-  { timestamps: true }
-);
+  {
+    timestamps: true
+  }
+)
 
 const OverallStat = mongoose.model('OverallStat', OverallStatSchema)
 

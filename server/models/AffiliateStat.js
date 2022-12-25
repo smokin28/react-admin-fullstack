@@ -11,7 +11,9 @@ const AffiliateStatSchema = new mongoose.Schema(
       ref: 'Transaction'
     }
   },
-  { timestamps: true }
+  {
+    timestamps: true
+  }
 )
 
 const AffiliateStat = mongoose.model('AffiliateStat', AffiliateStatSchema)
