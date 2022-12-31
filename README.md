@@ -13,6 +13,11 @@ the URL to the MongoDb and custom PORT number. Then in server/index.js uncomment
 55-60 to inject sample data to MongoDb. Then use npm run dev once, verify data is in  
 MongoDb, if there comment out lines 55-60 and use npm run start to start the server.
 
+
+# Frontend using:     
+    
+React/react-datepicker/react-redux/mui/emotion/nivo    
+      
 For the Client, .env.local needs to be in the 'client' folder with the REACT_APP_BASE_URL  
 set to localhost with port number set in server. Then use npm start to view the Dashboard.
 
